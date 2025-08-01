@@ -1,5 +1,5 @@
 // signup a new user
-import User from "../models/user.js";
+import User from "../models/User.js";
 import bcrypt from "bcryptjs";
 import generateToken from "../lib/utlis.js";
 import cloudinary from "../lib/cloudinary.js";
